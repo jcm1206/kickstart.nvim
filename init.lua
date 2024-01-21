@@ -194,7 +194,7 @@ require('lazy').setup({
     'navarasu/onedark.nvim',
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'default'
+      vim.cmd.colorscheme 'auto'
     end,
   },
 
@@ -205,7 +205,7 @@ require('lazy').setup({
     opts = {
       options = {
         icons_enabled = false,
-        theme = 'default',
+        theme = 'auto',
         component_separators = '|',
         section_separators = '',
       },
